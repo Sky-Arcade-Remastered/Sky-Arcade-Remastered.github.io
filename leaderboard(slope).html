@@ -1,0 +1,77 @@
+<html>
+  <title>Sky Arcade: Remastered - Slope Leaderboard</title>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+  </head>
+  <body id="mainBody">
+    <a href="index.html" class="ulnav">Home</a>
+    <a href="rules.html" class="ulnav">Rules</a>
+    <a href="games.html" class="ulnav">Games</a>
+    <a href="leaderboard(classicSnake).html" class="ulnav">Leaderboards</a>
+    <a href="credits.html" class="ulnav">Credits</a>
+    <a href="update-log.html" class="ulnav">Updates</a>
+  <hr>
+    <div>
+      <p class="dis">Slope leaderboard</p>
+      <p class="dis">
+        Submit your score for a chance to be on the leaderboard! <br>
+      <a href="form.html" target="_blank" style="text-align: center"
+        >Submit a Form</a
+      >
+      </p>
+    </div>
+    <hr />
+    <input
+      type="text"
+      id="nameinput"
+      onkeyup="myName()"
+      placeholder="Search for names.."
+    />
+    <ul id="myUL">
+      <li><a>Select a leaderboard</a></li>
+      <li><a href="leaderboard(classicSnake).html">Snake</a></li>
+      <li><a href="leaderboard(tetris).html">Tetris</a></li>
+      <li><a href="leaderboard(slope).html">Slope</a></li>
+      <li><a href="leaderboard(duckhunt).html">Duck Hunt</a></li>
+    </ul>
+
+    <table id="myTable">
+      <tr class="header">
+        <th style="width: 40%">Name</th>
+        <th style="width: 60%">Place</th>
+        <th style="width: 40%">Score</th>
+      </tr>
+      <tr>
+        <table id="myTable">
+          <tr class="header">
+            <th style="width: 40%">Name</th>
+            <th style="width: 60%">Place</th>
+            <th style="width: 40%">Score</th>
+          </tr>
+          <tr>
+            <td>1st</td>
+            <td>None</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>2nd</td>
+            <td>None</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>3rd</td>
+            <td>None</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>4th</td>
+            <td>None</td>
+            <td>-</td>
+          </tr>
+        </table>
+      </tr>
+    </table>
+  </body>
+</html>
