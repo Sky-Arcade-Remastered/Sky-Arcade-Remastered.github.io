@@ -12,5 +12,5 @@ UnknownFurry - Co-Owner
 Update Log:
 
 Update v1.1 - <br>
-Darker background for less eye-strain and shine in dark rooms.
+Darker background for less eye-strain and shine in dark rooms. <br>
 Fixed two titles.
